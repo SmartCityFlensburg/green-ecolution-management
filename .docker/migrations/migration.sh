@@ -6,7 +6,6 @@ MIGRATION_WITH_DB_RESET=${MIGRATION_WITH_DB_RESET:-false}
 
 if [ "$MIGRATION_WITH_DB_RESET" = "true" ]; then
   echo "Resetting database"
-  goose -dir /seed -no-versioning postgres "postgres://$POSTGRES_USER:$POSTGRES_PASSWORD@$POSTGRES_HOST:$POSTGRES_PORT/$POSTGRES_DB" reset
   goose -dir /migrations postgres "postgres://$POSTGRES_USER:$POSTGRES_PASSWORD@$POSTGRES_HOST:$POSTGRES_PORT/$POSTGRES_DB" reset
 fi
 
