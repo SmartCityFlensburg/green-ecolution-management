@@ -1,3 +1,9 @@
+<p>
+  <img src="https://argocd.green-ecolution.de/api/badge?name=green-ecolution-dev&revision=true&showAppName=true"/>
+  <img src="https://argocd.green-ecolution.de/api/badge?name=green-ecolution-stage&revision=true&showAppName=true"/>
+  <img src="https://argocd.green-ecolution.de/api/badge?name=green-ecolution-prod&revision=true&showAppName=true"/>
+</p>
+
 # Green Ecolution
 
 This is the main repository for the Green Ecolution project. It contains the submodules for the different parts of the project like the backend and the frontend. Also it contains the documentation for the project in the Wiki and the issues for the project.
