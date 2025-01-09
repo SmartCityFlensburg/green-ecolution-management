@@ -7,7 +7,7 @@ resources:
 images:
 - name: backend-image
   newName: ghcr.io/green-ecolution/green-ecolution-backend-dev
-  newTag: 87f1bdd
+  newTag: 2635c22
 - name: frontend-image
   newName: ghcr.io/green-ecolution/green-ecolution-frontend-dev
   newTag: 5526fc5
